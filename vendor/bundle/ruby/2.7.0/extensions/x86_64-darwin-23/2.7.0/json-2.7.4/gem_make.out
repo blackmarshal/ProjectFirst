@@ -1,0 +1,22 @@
+current directory: /Users/apple/Desktop/My Project/ProjectFirst/vendor/bundle/ruby/2.7.0/gems/json-2.7.4/ext/json/ext/parser
+/Users/apple/.rbenv/versions/2.7.0/bin/ruby -I /Users/apple/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20241025-8963-1tl3tih.rb extconf.rb
+checking for rb_enc_raise() in ruby.h... yes
+checking for rb_enc_interned_str() in ruby.h... no
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/apple/Desktop/My Project/ProjectFirst/vendor/bundle/ruby/2.7.0/gems/json-2.7.4/ext/json/ext/parser
+make "DESTDIR=" clean
+
+current directory: /Users/apple/Desktop/My Project/ProjectFirst/vendor/bundle/ruby/2.7.0/gems/json-2.7.4/ext/json/ext/parser
+make "DESTDIR="
+compiling parser.c
+parser.rl:75:1: warning: function 'raise_parse_error' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+   75 | {
+      | ^
+1 warning generated.
+linking shared-object json/ext/parser.bundle
+
+current directory: /Users/apple/Desktop/My Project/ProjectFirst/vendor/bundle/ruby/2.7.0/gems/json-2.7.4/ext/json/ext/parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20241025-8963-wjrvgw/json/ext

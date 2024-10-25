@@ -1,0 +1,41 @@
+# Logs
+*.log
+*.log.*
+
+# Node modules
+node_modules/
+
+# Metro and Bundler Cache
+# This prevents version-specific cache from being committed
+.expo/
+.expo-shared/
+.babelrc
+.babel.config.js
+
+# Miscellaneous OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Android
+android/.gradle/
+android/.idea/
+android/app/build/
+android/local.properties
+android/app/debug.keystore
+*.keystore
+
+# iOS
+ios/Pods/
+ios/build/
+ios/xcuserdata/
+*.pbxproj
+
+# Build artifacts
+*.hmap
+*.ipa
+*.app
+
+# IDE-specific
+.vscode/
+.idea/
